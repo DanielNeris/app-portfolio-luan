@@ -28,6 +28,7 @@ import {
   nuxtjs,
   ai,
   vuejs,
+  testimonial,
 } from '../assets'
 
 const navLinks = [
@@ -91,10 +92,10 @@ const graphcInformations = [
     time: '6+',
     description: 'Years of <br /> experience',
   },
-  {
-    time: '20+',
-    description: 'Projects <br /> completed',
-  },
+  // {
+  //   time: '20+',
+  //   description: 'Projects <br /> completed',
+  // },
   {
     time: '5',
     description: 'Technologies <br /> mastered',
@@ -242,27 +243,27 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      'I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.',
-    name: 'Sara Lee',
-    designation: 'CFO',
-    company: 'Acme Co',
-    image: 'https://randomuser.me/api/portraits/women/4.jpg',
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: 'Chris Brown',
-    designation: 'COO',
-    company: 'DEF Corp',
-    image: 'https://randomuser.me/api/portraits/men/5.jpg',
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: 'Lisa Wang',
+      "I've never met a software developer who truly cares about their clients' success like Daniel does.",
+    name: 'Luan R',
     designation: 'CTO',
-    company: '456 Enterprises',
-    image: 'https://randomuser.me/api/portraits/women/6.jpg',
+    company: 'LiveOn Solutions',
+    image: testimonial,
+  },
+  {
+    testimonial:
+      'I thought it was impossible to make a website as beautiful as our product, but Daniel proved.',
+    name: 'Matheus M',
+    designation: 'Credit Director',
+    company: 'Zuvia',
+    image: testimonial,
+  },
+  {
+    testimonial:
+      "After Daniel optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    name: 'Jonatas M',
+    designation: 'Co-CEO',
+    company: 'Zuvia',
+    image: testimonial,
   },
 ]
 
