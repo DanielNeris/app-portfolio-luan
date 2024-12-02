@@ -1,7 +1,5 @@
 import { BrowserRouter } from 'react-router-dom'
 
-import { education } from './constants'
-
 import {
   About,
   Contact,
@@ -25,10 +23,10 @@ const App = () => {
           <Hero />
         </div>
         <About />
-        <Experience />
-        {/* <Academic education={education} /> */}
         <Tech />
+        <Experience />
         <Projects />
+        <Academic />
         <Feedbacks />
         <div className="relative z-0">
           <Contact />

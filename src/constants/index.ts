@@ -48,6 +48,14 @@ const navLinks = [
     title: 'Work',
   },
   {
+    id: 'projects',
+    title: 'Projects',
+  },
+  {
+    id: 'academic',
+    title: 'Academic',
+  },
+  {
     id: 'contact',
     title: 'Contact',
     class: 'bg-[#915EFF] rounded-full px-5 py-3 text-white',
@@ -245,14 +253,24 @@ const experiences = [
 
 const education = [
   {
-    degree: 'Bachelor of Science in Computer Science',
-    university: 'University of ABC',
+    degree: 'Intensive English Programme',
+    institution: 'Stellenbosch University, South Africa',
+    graduationYear: '2024',
+  },
+  {
+    degree: 'Bachelor in Computer Science',
+    institution: 'UNISAGRADO, Brazil',
     graduationYear: '2020',
   },
   {
-    degree: 'Master of Science in Data Science',
-    university: 'University of XYZ',
-    graduationYear: '2022',
+    degree: 'Web Developer',
+    institution: 'Etec Comendador João Rays, Brazil',
+    graduationYear: '2018',
+  },
+  {
+    degree: 'Information Technology',
+    institution: 'Etec Comendador João Rays, Brazil',
+    graduationYear: '2017',
   },
 ]
 
