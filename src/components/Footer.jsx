@@ -21,13 +21,13 @@ const Footer = () => {
 
         <div className="space-x-6 grid text-end">
           <a
-            href="mailto:danielneris01@gmail.com"
+            href="mailto:contact@danielneris.com"
             className="hover:text-[#915EFF]"
           >
             {/* <img src={email} alt={''} className="w-5 h-5 object-contain" /> */}
             <div>
               <span>Email: </span>
-              <span>danielneris01@gmail.com</span>
+              <span>contact@danielneris.com</span>
             </div>
           </a>
           <a href="tel:+5511988928000" className="hover:text-[#915EFF]">

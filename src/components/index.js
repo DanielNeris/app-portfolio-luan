@@ -10,6 +10,7 @@ import Contact from './Contact'
 import CanvasLoader from './Loader'
 import Footer from './Footer'
 import SocialMediasCard from './SocialMediasCard'
+import Academic from './Academic'
 
 export {
   Hero,
@@ -27,4 +28,5 @@ export {
   StarsCanvas,
   Footer,
   SocialMediasCard,
+  Academic,
 }

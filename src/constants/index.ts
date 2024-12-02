@@ -78,7 +78,7 @@ const contact = [
   {
     icon: email,
     description: 'Email',
-    link: 'mailto:danielneris01@gmail.com',
+    link: 'mailto:contact@danielneris.com',
   },
   {
     icon: phone,
@@ -92,10 +92,10 @@ const graphcInformations = [
     time: '6+',
     description: 'Years of <br /> experience',
   },
-  // {
-  //   time: '20+',
-  //   description: 'Projects <br /> completed',
-  // },
+  {
+    time: '20+',
+    description: 'Projects <br /> completed',
+  },
   {
     time: '5',
     description: 'Technologies <br /> mastered',
@@ -240,10 +240,23 @@ const experiences = [
   },
 ]
 
+const education = [
+  {
+    degree: 'Bachelor of Science in Computer Science',
+    university: 'University of ABC',
+    graduationYear: '2020',
+  },
+  {
+    degree: 'Master of Science in Data Science',
+    university: 'University of XYZ',
+    graduationYear: '2022',
+  },
+]
+
 const testimonials = [
   {
     testimonial:
-      "I've never met a software developer who truly cares about their clients' success like Daniel does.",
+      "Daniel's commitment to delivering high-quality solutions is unparalleled. He's a developer who truly makes a difference.",
     name: 'Luan R',
     designation: 'CTO',
     company: 'LiveOn Solutions',
@@ -251,7 +264,7 @@ const testimonials = [
   },
   {
     testimonial:
-      'I thought it was impossible to make a website as beautiful as our product, but Daniel proved.',
+      "Daniel was instrumental in building Zuvia's platform, merging blockchain innovation with scalable tech solutions.",
     name: 'Matheus M',
     designation: 'Credit Director',
     company: 'Zuvia',
@@ -259,7 +272,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Daniel optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      'I had the privilege of working with Daniel Neris at Zuvia, where he showcased exceptional expertise in software development.',
     name: 'Jonatas M',
     designation: 'Co-CEO',
     company: 'Zuvia',
@@ -343,4 +356,5 @@ export {
   socialMedias,
   graphcInformations,
   contact,
+  education,
 }
