@@ -29,6 +29,9 @@ import {
   ai,
   vuejs,
   testimonial,
+  zuviadigitalassets,
+  zuviapay,
+  fstage,
 } from '../assets'
 
 const navLinks = [
@@ -282,67 +285,67 @@ const testimonials = [
 
 const projects = [
   {
-    name: 'Car Rent',
+    name: 'Zuvia Digital Assets',
     description:
-      'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
+      'Web platform for real estate investment, enabling users to tokenize, manage, and diversify their digital assets securely and transparently.',
     tags: [
       {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'mongodb',
+        name: 'nodejs',
         color: 'green-text-gradient',
       },
-      {
-        name: 'tailwind',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: carrent,
-    source_code_link: 'https://github.com/',
-  },
-  {
-    name: 'Job IT',
-    description:
-      'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'restapi',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'scss',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: jobit,
-    source_code_link: 'https://github.com/',
-  },
-  {
-    name: 'Trip Guide',
-    description:
-      'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
-    tags: [
       {
         name: 'nextjs',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
+        name: 'investiment',
         color: 'pink-text-gradient',
       },
     ],
-    image: tripguide,
-    source_code_link: 'https://github.com/',
+    image: zuviadigitalassets,
+    source_code_link: 'https://app.zuvia.com.br',
+  },
+  {
+    name: 'ZuviaPay',
+    description:
+      'Web platform enabling users to easily buy cryptocurrencies with secure and seamless transactions, providing a straightforward solution for digital asset purchases.',
+    tags: [
+      {
+        name: 'nodejs',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'nuxtjs',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'cryptocurrency',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: zuviapay,
+    source_code_link: '#',
+  },
+  {
+    name: 'Fstage',
+    description:
+      "A web-based diagnostic tool that helps businesses assess their website's performance, SEO, and user experience, providing actionable insights for improvements.",
+    tags: [
+      {
+        name: 'nodejs',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'nextjs',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'ai',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: fstage,
+    source_code_link: 'https://diagnostico.fstage.com.br',
   },
 ]
 

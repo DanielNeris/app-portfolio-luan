@@ -27,6 +27,10 @@ import nuxtjs from './tech/nuxtjs.png'
 import vuejs from './tech/vuejs.png'
 import ai from './tech/ai.png'
 
+import zuviadigitalassets from './projects/zuviadigitalassets.png'
+import zuviapay from './projects/zuviapay.png'
+import fstage from './projects/fstage.png'
+
 import meta from './company/meta.png'
 import shopify from './company/shopify.png'
 import starbucks from './company/starbucks.png'
@@ -43,6 +47,7 @@ import email from './social/email.svg'
 import phone from './social/phone.svg'
 import linkedin from './social/linkedin.svg'
 import githubSocial from './social/github.svg'
+
 import cvPDF from './resume/cv.pdf'
 
 export {
@@ -87,5 +92,8 @@ export {
   nuxtjs,
   vuejs,
   ai,
-  testimonial
+  testimonial,
+  zuviadigitalassets,
+  zuviapay,
+  fstage
 }
