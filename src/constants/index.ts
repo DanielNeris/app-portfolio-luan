@@ -106,14 +106,14 @@ const graphcInformations = [
     time: '6+',
     description: 'Years of <br /> experience',
   },
-  {
-    time: '20+',
-    description: 'Projects <br /> completed',
-  },
-  {
-    time: '5',
-    description: 'Technologies <br /> mastered',
-  },
+  // {
+  //   time: '20+',
+  //   description: 'Projects <br /> completed',
+  // },
+  // {
+  //   time: '5',
+  //   description: 'Technologies <br /> mastered',
+  // },
   // {
   //   time: '5',
   //   description: 'Technologies <br /> mastered',
