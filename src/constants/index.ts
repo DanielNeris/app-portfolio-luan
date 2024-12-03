@@ -32,6 +32,9 @@ import {
   zuviadigitalassets,
   zuviapay,
   fstage,
+  smoolosbetclub,
+  smoolosclubdapp,
+  smoolosnft,
 } from '../assets'
 
 const navLinks = [
@@ -364,6 +367,69 @@ const projects = [
     ],
     image: fstage,
     source_code_link: 'https://diagnostico.fstage.com.br',
+  },
+  {
+    name: 'Smoolos Club DApp',
+    description:
+      'A DApp for Smoolos NFT holders that unlocks exclusive club benefits, providing an engaging and rewarding experience.',
+    tags: [
+      {
+        name: 'nodejs',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'reactjs',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'blockchain',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: smoolosclubdapp,
+    source_code_link: 'https://smoolos-club-dapp.netlify.app',
+  },
+  {
+    name: 'Smoolos Bet Club',
+    description:
+      'A decentralized platform where NFT holders can place bets on ongoing games, offering an exclusive betting experience.',
+    tags: [
+      {
+        name: 'nodejs',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'reactjs',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'dapp',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: smoolosbetclub,
+    source_code_link: 'https://smoolos-bet-club.netlify.app',
+  },
+  {
+    name: 'Smoolos NFT',
+    description:
+      'A decentralized application for minting Smoolos NFT collection, allowing users to mint and own unique NFTs that unlock exclusive benefits.',
+    tags: [
+      {
+        name: 'nodejs',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'reactjs',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'nft',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: smoolosnft,
+    source_code_link: 'https://smoolos.netlify.app',
   },
 ]
 

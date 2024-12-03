@@ -30,6 +30,10 @@ import ai from './tech/ai.png'
 import zuviadigitalassets from './projects/zuviadigitalassets.png'
 import zuviapay from './projects/zuviapay.png'
 import fstage from './projects/fstage.png'
+import smoolosbetclub from './projects/smoolosbetclub.png'
+import smoolosclubdapp from './projects/smoolosclubdapp.png'
+import smoolosnft from './projects/smoolosnft.png'
+
 
 import meta from './company/meta.png'
 import shopify from './company/shopify.png'
@@ -95,5 +99,8 @@ export {
   testimonial,
   zuviadigitalassets,
   zuviapay,
-  fstage
+  fstage,
+  smoolosbetclub,
+  smoolosclubdapp,
+  smoolosnft
 }
