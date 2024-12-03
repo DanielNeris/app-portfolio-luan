@@ -41,10 +41,10 @@ const Hero = () => {
             Hi, I'm <span className="text-[#915EFF]">Daniel Neris</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-gray`}>
-            I am Passionate about developing innovative solutions
+            I am Passionate about developing innovative solutions,
           </p>
           <p className={`${styles.heroSubText} mt-2 text-gray`}>
-            and decentralization.
+            finance and decentralization.
           </p>
 
           <div className="md:flex items-center mt-10 text-center">
