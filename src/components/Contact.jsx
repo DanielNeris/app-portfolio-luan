@@ -61,8 +61,8 @@ const Contact = () => {
         {
           from_name: form.name,
           from_email: form.email,
-          to_name: 'Daniel Neris',
-          to_email: 'contact@danielneris.com',
+          to_name: 'Luan Rodrigues',
+          to_email: 'luoldrigues@gmail.com',
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
@@ -100,7 +100,7 @@ const Contact = () => {
         <ToastContainer />
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>
-          Contact<span className="text-[#915EFF]">.</span>
+          Contact<span className="text-[#5A8DEE]">.</span>
         </h3>
 
         <form

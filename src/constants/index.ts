@@ -34,6 +34,7 @@ import {
   smoolosbetclub,
   smoolosclubdapp,
   smoolosnft,
+  homeImg,
 } from '../assets'
 
 const navLinks = [
@@ -60,7 +61,7 @@ const navLinks = [
   {
     id: 'contact',
     title: 'Contact',
-    class: 'bg-[#915EFF] rounded-full px-5 py-3 text-white',
+    class: 'bg-[#5A8DEE] rounded-full px-5 py-3 text-white',
   },
 ]
 
@@ -68,12 +69,12 @@ const socialMedias = [
   {
     icon: githubSocial,
     description: 'Github',
-    link: 'https://github.com/DanielNeris',
+    link: 'https://github.com/luoldrigues',
   },
   {
     icon: linkedin,
     description: 'Linkedin',
-    link: 'https://www.linkedin.com/in/danielneris',
+    link: 'https://www.linkedin.com/in/luoldrigues',
   },
 ]
 
@@ -81,62 +82,62 @@ const contact = [
   {
     icon: githubSocial,
     description: 'Github',
-    link: 'https://github.com/DanielNeris',
+    link: 'https://github.com/luoldrigues',
   },
   {
     icon: linkedin,
     description: 'Linkedin',
-    link: 'https://www.linkedin.com/in/danielneris',
+    link: 'https://www.linkedin.com/in/luoldrigues',
   },
   {
     icon: email,
     description: 'Email',
-    link: 'mailto:contact@danielneris.com',
+    link: 'mailto:luoldrigues@gmail.com',
   },
   {
     icon: phone,
     description: 'Phone',
-    link: 'tel:+5511988928000',
+    link: 'tel:+5514996574890',
   },
 ]
 
 const graphcInformations = [
   {
-    time: '6',
-    description: 'Years of <br /> experience',
-    sufix: '+',
-  },
-  {
     time: '20',
-    description: 'Projects <br /> completed',
+    description: 'Years of <br /> IT experience',
+    sufix: '+',
+  },
+  {
+    time: '8',
+    description: 'Years as <br /> CTO',
     sufix: '+',
   },
   {
     time: '5',
-    description: 'Technologies <br /> mastered',
+    description: 'Startups <br /> supported',
   },
   {
-    time: '5',
+    time: '15',
     description: 'Technologies <br /> mastered',
   },
 ]
 
 const services = [
   {
-    title: 'Full Stack Development',
-    icon: web,
-  },
-  {
-    title: 'AI Projects & Solutions',
-    icon: backend,
-  },
-  {
-    title: 'Decentralized Application (DApp)',
+    title: 'CTO Leadership & Technology Strategy',
     icon: creator,
   },
   {
-    title: 'Mobile App Development',
+    title: 'AI Solutions & Cybersecurity',
     icon: mobile,
+  },
+  {
+    title: 'System Architecture & IT Analysis',
+    icon: backend,
+  },
+  {
+    title: 'Startup Launch & Product Development',
+    icon: web,
   },
 ]
 
@@ -202,60 +203,128 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'Co-Founder | Head of Technology',
-    company_name: 'Zuvia',
+    title: 'Partner',
+    company_name: 'XP Inc.',
     icon: startup,
     iconBg: '#383E56',
-    date: 'Sep 2022 - Present',
+    date: 'Oct 2021 - Present',
     points: [
-      'Joined Zuvia from its inception, contributing to all aspects of IT infrastructure and product development.',
-      'Scaled operations, supporting 2,000 accounts and tokenizing R$25 million in digital assets.',
-      'Designed scalable microservices with Node.js and MongoDB, integrated payment solutions, and optimized CI/CD pipelines on Azure.',
-      'Managed front-end development using React.js and Vue.js, delivering dynamic and user-friendly experiences.',
+      'Contributing to strategic and operational decisions for the company.',
+      'Leading technology and innovation projects.',
+      "Working remotely while supporting the company's growth.",
     ],
   },
   {
-    title: 'Co-Founder | Head of Technology',
-    company_name: 'SkyDan',
+    title: 'Partner | Technology Director of Modal as a Service',
+    company_name: 'Banco Modal',
     icon: startup,
     iconBg: '#E6DEDD',
-    date: 'Sep 2021 - Aug 2024',
+    date: 'Oct 2021 - Jan 2024',
     points: [
-      'Spearheaded the company’s Web3 and blockchain initiatives, aligning technology strategies with business objectives.',
-      'Developed and deployed decentralized applications (DApps) and smart contracts using Solidity.',
-      'Designed APIs with REST and GraphQL and implemented Node.js back-end solutions adhering to SOLID principles.',
-      'Explored and implemented metaverse technologies to create immersive digital experiences.',
+      'Responsible for technology at Modal as a Service (MAAS) platform.',
+      'Managing integration and support for Banking as a Service clients.',
+      'Driving new digital banking opportunities through strategic acquisitions.',
     ],
   },
   {
-    title: 'Full Stack Developer',
+    title: 'CTO & Co-Founder',
     company_name: 'Live On Solutions',
     icon: startup,
     iconBg: '#383E56',
-    date: 'Jan 2019 - Oct 2021',
+    date: 'Nov 2015 - Dec 2021',
     points: [
-      'Developed and maintained features for Bank-as-a-Service (BaaS) and Credit-as-a-Service (CaaS) platforms.',
-      'Built secure back-end systems using Node.js with TypeScript, integrating third-party payment providers.',
-      'Created intuitive front-end interfaces with React.js, enhancing user experience.',
-      'Managed data with MongoDB and PostgreSQL, ensuring efficiency and scalability.',
+      'Developed and scaled Banking as a Service (BaaS) solutions.',
+      'Built secure back-end systems using modern frameworks and tools.',
+      'Fostered partnerships with fintech companies to deliver innovative solutions.',
     ],
   },
   {
-    title: 'Trainee developer',
-    company_name: 'Amais Terceiro Setor',
+    title: 'Software Engineer and Linux System Administrator',
+    company_name: 'MyGSPN',
     icon: startup,
     iconBg: '#E6DEDD',
-    date: 'Oct 2018 - Jan 2019',
+    date: 'Aug 2015 - Apr 2016',
     points: [
-      'Developed new features and maintained existing systems using PHP and JavaScript.',
-      'Designed responsive front-end interfaces with HTML5, CSS3, and Bootstrap.',
-      'Optimized database queries and managed operations using MySQL.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      'Managed application servers as a Linux System Administrator.',
+      'Developed Web Service APIs and assisted with front-end development.',
+      'Worked with technologies such as AngularJS, Laravel, and Web Sockets.',
+    ],
+  },
+  {
+    title: 'Web Developer',
+    company_name: 'Arca Solutions',
+    icon: startup,
+    iconBg: '#383E56',
+    date: 'Mar 2013 - Jul 2014',
+    points: [
+      'Analyzed customer needs and developed tailored web solutions.',
+      'Specialized in web application development and search engine optimization.',
+      'Collaborated with international teams in Brazil and the Philippines.',
+    ],
+  },
+  {
+    title: 'Systems Analyst and Web Developer',
+    company_name: 'Hospedaria Internet',
+    icon: startup,
+    iconBg: '#E6DEDD',
+    date: 'May 2012 - Feb 2013',
+    points: [
+      'Developed secure and fast web hosting solutions.',
+      'Contributed to exclusive email hosting platforms.',
+      'Provided systems analysis and development support.',
+    ],
+  },
+  {
+    title: 'Systems Analyst and Web Developer',
+    company_name: 'Grupo Pacabá',
+    icon: startup,
+    iconBg: '#383E56',
+    date: 'Jul 2010 - Jun 2012',
+    points: [
+      'Co-founded and developed systems for a daily deals website.',
+      'Introduced an innovative payment method called LivePay.',
+      'Promoted entrepreneurship and teamwork within the organization.',
+    ],
+  },
+  {
+    title: 'Procad Project Manager',
+    company_name: 'Realizzare Dellano',
+    icon: startup,
+    iconBg: '#E6DEDD',
+    date: 'Apr 2008 - Feb 2010',
+    points: [
+      "Managed projects for one of Brazil's leading custom furniture brands.",
+      'Implemented innovative solutions for kitchens, bedrooms, and more.',
+      'Ensured high-quality standards in project delivery.',
+    ],
+  },
+  {
+    title: 'Professional Service, Support & Maintenance Hardware / Software',
+    company_name: 'Destake Informática',
+    icon: startup,
+    iconBg: '#383E56',
+    date: 'Mar 2006 - Apr 2008',
+    points: [
+      'Provided hardware and software support services.',
+      'Maintained and optimized IT systems for clients.',
+      'Delivered reliable technical assistance to ensure customer satisfaction.',
     ],
   },
 ]
 
 const education = [
+  {
+    degree: 'MBA in Cyber Security',
+    institution: 'Impacta Tecnologia, Brazil',
+    graduationYear: '2026',
+    duration: 'Sep 2024 - Jun 2026',
+  },
+  {
+    degree: 'MBA in Artificial Intelligence',
+    institution: 'Impacta Tecnologia, Brazil',
+    graduationYear: '2023',
+    duration: '2021 - Mar 2023',
+  },
   {
     degree: 'Intensive English Programme',
     institution: 'Stellenbosch University, South Africa',
@@ -267,6 +336,18 @@ const education = [
     graduationYear: '2020',
   },
   {
+    degree: 'Internet Systems Technologist',
+    institution: 'Faculdade de Tecnologia de Jahu, Brazil',
+    graduationYear: '2013',
+    duration: '2010 - 2013',
+  },
+  {
+    degree: 'English as a Second or Foreign Language Student',
+    institution: 'Lindenwood University, USA',
+    graduationYear: '2015',
+    duration: '2014 - 2015',
+  },
+  {
     degree: 'Web Developer',
     institution: 'Etec Comendador João Rays, Brazil',
     graduationYear: '2018',
@@ -276,16 +357,22 @@ const education = [
     institution: 'Etec Comendador João Rays, Brazil',
     graduationYear: '2017',
   },
+  {
+    degree: 'Electronics Technician',
+    institution: 'ETEC Joaquim Ferreira do Amaral, Brazil',
+    graduationYear: '2005',
+    duration: '2004 - 2005',
+  },
 ]
 
 const testimonials = [
   {
     testimonial:
       "Daniel's commitment to delivering high-quality solutions is unparalleled. He's a great developer who truly makes the difference.",
-    name: 'Rodrigues, Luan',
-    designation: 'CTO',
+    name: 'Neris, Daniel',
+    designation: 'Software Engineer',
     company: 'Live On Solutions',
-    image: testimonial1,
+    image: homeImg,
   },
   {
     testimonial:
@@ -297,7 +384,7 @@ const testimonials = [
   },
   {
     testimonial:
-      'I had the privilege of working with Daniel Neris at Zuvia, where he showcased exceptional expertise in software development skills.',
+      'I had the privilege of working with Luan Rodrigues at Zuvia, where he showcased exceptional expertise in software development skills.',
     name: 'Montanini, Jonatas',
     designation: 'Co-CEO',
     company: 'Zuvia',
@@ -307,130 +394,88 @@ const testimonials = [
 
 const projects = [
   {
-    name: 'Zuvia Digital Assets',
+    name: 'Cardápio Delivery',
     description:
-      'Web platform for real estate investment, enabling users to tokenize, manage, and diversify their digital assets securely and transparently.',
+      'Android app designed to simplify fast food ordering, offering users a seamless experience from selecting dishes to delivery.',
     tags: [
       {
-        name: 'nodejs',
+        name: 'android',
         color: 'green-text-gradient',
       },
       {
-        name: 'nextjs',
+        name: 'java',
         color: 'blue-text-gradient',
       },
       {
-        name: 'investiment',
+        name: 'ux',
         color: 'pink-text-gradient',
       },
     ],
-    image: zuviadigitalassets,
-    source_code_link: 'https://app.zuvia.com.br',
-  },
-  {
-    name: 'ZuviaPay',
-    description:
-      'Web platform enabling users to easily buy cryptocurrencies with secure and seamless transactions, providing a straightforward solution for digital asset purchases.',
-    tags: [
-      {
-        name: 'nodejs',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'nuxtjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'cryptocurrency',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: zuviapay,
+    image: smoolosbetclub, // Substituir pela imagem apropriada
     source_code_link: '#',
   },
   {
-    name: 'Fstage',
+    name: 'LivePay',
     description:
-      "A web-based diagnostic tool that helps businesses assess their website's performance, SEO, and user experience, providing actionable insights for improvements.",
+      'An exclusive payment system that allows users to make payments at various commercial establishments, enhancing convenience and accessibility for e-commerce.',
     tags: [
       {
         name: 'nodejs',
         color: 'green-text-gradient',
       },
       {
-        name: 'nextjs',
+        name: 'payment',
         color: 'blue-text-gradient',
       },
       {
-        name: 'ai',
+        name: 'ecommerce',
         color: 'pink-text-gradient',
       },
     ],
-    image: fstage,
-    source_code_link: 'https://diagnostico.fstage.com.br',
+    image: smoolosbetclub, // Substituir pela imagem apropriada
+    source_code_link: '#',
   },
   {
-    name: 'Smoolos Club DApp',
+    name: 'Shop Pacabá',
     description:
-      'A DApp for Smoolos NFT holders that unlocks exclusive club benefits, providing an engaging and rewarding experience.',
+      'An e-commerce platform developed in collaboration with Neomerkato, offering a wide range of products such as electronics, appliances, and security solutions.',
     tags: [
       {
-        name: 'nodejs',
+        name: 'ecommerce',
         color: 'green-text-gradient',
       },
       {
-        name: 'reactjs',
+        name: 'php',
         color: 'blue-text-gradient',
       },
       {
-        name: 'blockchain',
+        name: 'mysql',
         color: 'pink-text-gradient',
       },
     ],
-    image: smoolosclubdapp,
-    source_code_link: 'https://smoolos-club-dapp.netlify.app',
+    image: smoolosbetclub, // Substituir pela imagem apropriada
+    source_code_link: '#',
   },
   {
-    name: 'Smoolos Bet Club',
+    name: 'Grupo Pacabá',
     description:
-      'A decentralized platform where NFT holders can place bets on ongoing games, offering an exclusive betting experience.',
+      'A collective buying platform, the first of its kind in the Jaú region, recognized as one of the best in São Paulo’s interior.',
     tags: [
       {
-        name: 'nodejs',
+        name: 'php',
         color: 'green-text-gradient',
       },
       {
-        name: 'reactjs',
+        name: 'mysql',
         color: 'blue-text-gradient',
       },
       {
-        name: 'dapp',
+        name: 'web',
         color: 'pink-text-gradient',
       },
     ],
-    image: smoolosbetclub,
-    source_code_link: 'https://smoolos-bet-club.netlify.app',
-  },
-  {
-    name: 'Smoolos NFT',
-    description:
-      'A decentralized application for minting Smoolos NFT collection, allowing users to mint and own unique NFTs that unlock exclusive benefits.',
-    tags: [
-      {
-        name: 'nodejs',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'reactjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'nft',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: smoolosnft,
-    source_code_link: 'https://smoolos.netlify.app',
+    image: smoolosbetclub, // Substituir pela imagem apropriada
+    source_code_link: '#',
   },
 ]
 

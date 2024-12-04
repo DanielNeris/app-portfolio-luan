@@ -11,7 +11,8 @@ const Footer = () => {
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
         <div className="text-center md:text-left mb-4 md:mb-0">
           <p className="text-sm">
-            &copy; {new Date().getFullYear()} Daniel Neris. All Rights Reserved.
+            &copy; {new Date().getFullYear()} Luan Rodrigues. All Rights
+            Reserved.
           </p>
         </div>
 
@@ -21,20 +22,17 @@ const Footer = () => {
 
         <div className="space-x-6 grid text-end">
           <a
-            href="mailto:contact@danielneris.com"
-            className="hover:text-[#915EFF]"
+            href="mailto:luoldrigues@gmail.com"
+            className="hover:text-[#5A8DEE]"
           >
             {/* <img src={email} alt={''} className="w-5 h-5 object-contain" /> */}
             <div>
               <span>Email: </span>
-              <span>contact@danielneris.com</span>
+              <span>luoldrigues@gmail.com</span>
             </div>
           </a>
-          <a href="tel:+5511988928000" className="hover:text-[#915EFF]">
+          <a href="tel:+5514996574890" className="hover:text-[#5A8DEE]">
             BR Phone: +55 (11) 98892-8000
-          </a>
-          <a href="tel:+27820683054" className="hover:text-[#915EFF]">
-            SA Phone: +27 (82) 068-3054
           </a>
         </div>
       </div>

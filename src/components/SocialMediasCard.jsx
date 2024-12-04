@@ -7,7 +7,7 @@ const SocialMediasCard = ({ socialMedias }) => {
           target="_blank"
           rel="noreferrer"
           key={social.description}
-          className="mr-5 border-solid border-2 border-[#915EFF] p-2 rounded-full"
+          className="mr-5 border-solid border-2 border-[#5A8DEE] p-2 rounded-full"
         >
           <img
             src={social.icon}

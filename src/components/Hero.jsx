@@ -38,34 +38,34 @@ const Hero = () => {
         className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
         <div className="flex flex-col justify-center items-center mt-5">
-          <div className="w-5 h-5 rounded-full bg-[#915EFF]" />
+          <div className="w-5 h-5 rounded-full bg-[#5A8DEE]" />
           <div className="w-1 sm:h-80 h-40 violet-gradient" />
         </div>
 
         <div>
           <div className="flex items-center">
             <div>
-              <span>Full Stack Developer</span>
+              <span>Software Engineer</span>
               <h1
                 className={`${styles.heroHeadText} lg:text-[70px] text-white`}
               >
-                Hi, I'm <span className="text-[#915EFF]">Daniel Neris</span>
+                Hi, I'm <span className="text-[#5A8DEE]">Luan Rodrigues</span>
               </h1>
               <p
                 className={`${styles.heroSubText} mt-2 lg:text-[20px] text-gray`}
               >
-                I am Passionate about developing innovative solutions,
+                I am passionate about AI-driven innovation, strategic leadership
               </p>
               <p
                 className={`${styles.heroSubText} mt-2 lg:text-[20px] text-gray`}
               >
-                finance and decentralization.
+                in tech, and creating scalable solutions.
               </p>
               <div className="md:flex items-center mt-10 text-center">
                 <button
                   type="button"
-                  onClick={() => window.open(cvPDF, '_blank')}
-                  className="bg-transparent border-solid border-2 border-[#915EFF] rounded-full text-white font-bold py-3 px-5 mr-5 mb-10 md:mb-0"
+                  onClick={() => window.open('#', '_blank')}
+                  className="bg-transparent border-solid border-2 border-[#5A8DEE] rounded-full text-white font-bold py-3 px-5 mr-5 mb-10 md:mb-0"
                 >
                   <div className="flex justify-center items-center">
                     <span className="mr-3">SEE MY RESUME</span>
@@ -81,7 +81,12 @@ const Hero = () => {
               </div>
             </div>
             <div className="flex items-center hidden lg:block">
-              <img className="rounded-full" src={homeImg} alt="" width={700} />
+              <img
+                className="rounded-full"
+                src={testimonial1}
+                alt=""
+                width={700}
+              />
             </div>
           </div>
           <GraphCard data={graphcInformations} />

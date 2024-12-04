@@ -47,10 +47,14 @@ const About = () => {
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I am a passionate Full Stack Developer with over 6 years of experience
-        in building scalable and secure applications. My expertise lies in the
-        MERN stack, blockchain technology, artificial intelligence, and
-        decentralized solutions, driving innovation in technology.
+        CTO with 20+ years of IT experience, specializing in innovation,
+        leadership, and full-cycle project management. Currently pursuing an MBA
+        in Cybersecurity, complementing an MBA in Artificial Intelligence and
+        Internet Development Systems. Proven track record of collaborating with
+        global leaders and multinational corporations, driving the success of
+        multiple startup launches. Expertise as a Tech Strategist and Systems
+        Architect, with strong skills in IT analysis, team leadership, Android
+        development, and Linux system administration.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
