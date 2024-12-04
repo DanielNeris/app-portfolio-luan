@@ -15,9 +15,6 @@ import {
   figma,
   docker,
   startup,
-  carrent,
-  jobit,
-  tripguide,
   download,
   email,
   phone,
@@ -28,7 +25,9 @@ import {
   nuxtjs,
   ai,
   vuejs,
-  testimonial,
+  testimonial1,
+  testimonial2,
+  testimonial3,
   zuviadigitalassets,
   zuviapay,
   fstage,
@@ -103,21 +102,23 @@ const contact = [
 
 const graphcInformations = [
   {
-    time: '6+',
+    time: '6',
     description: 'Years of <br /> experience',
+    sufix: '+',
   },
-  // {
-  //   time: '20+',
-  //   description: 'Projects <br /> completed',
-  // },
-  // {
-  //   time: '5',
-  //   description: 'Technologies <br /> mastered',
-  // },
-  // {
-  //   time: '5',
-  //   description: 'Technologies <br /> mastered',
-  // },
+  {
+    time: '20',
+    description: 'Projects <br /> completed',
+    sufix: '+',
+  },
+  {
+    time: '5',
+    description: 'Technologies <br /> mastered',
+  },
+  {
+    time: '5',
+    description: 'Technologies <br /> mastered',
+  },
 ]
 
 const services = [
@@ -280,27 +281,27 @@ const education = [
 const testimonials = [
   {
     testimonial:
-      "Daniel's commitment to delivering high-quality solutions is unparalleled. He's a developer who truly makes a difference.",
-    name: 'Luan R',
+      "Daniel's commitment to delivering high-quality solutions is unparalleled. He's a great developer who truly makes the difference.",
+    name: 'Rodrigues, Luan',
     designation: 'CTO',
-    company: 'LiveOn Solutions',
-    image: testimonial,
+    company: 'Live On Solutions',
+    image: testimonial1,
   },
   {
     testimonial:
       "Daniel was instrumental in building Zuvia's platform, merging blockchain innovation with scalable tech solutions.",
-    name: 'Matheus M',
+    name: 'Montanini, Matheus',
     designation: 'Credit Director',
     company: 'Zuvia',
-    image: testimonial,
+    image: testimonial2,
   },
   {
     testimonial:
-      'I had the privilege of working with Daniel Neris at Zuvia, where he showcased exceptional expertise in software development.',
-    name: 'Jonatas M',
+      'I had the privilege of working with Daniel Neris at Zuvia, where he showcased exceptional expertise in software development skills.',
+    name: 'Montanini, Jonatas',
     designation: 'Co-CEO',
     company: 'Zuvia',
-    image: testimonial,
+    image: testimonial3,
   },
 ]
 

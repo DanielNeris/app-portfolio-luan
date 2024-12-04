@@ -1,21 +1,28 @@
 import { motion } from 'framer-motion'
+import CountUp from 'react-countup'
 
 import { styles } from '../styles'
 import { SectionWrapper } from '../hoc'
-import { cvPDF, link } from '../assets'
+import { cvPDF, homeImg, link, logo, testimonial1 } from '../assets'
 import { graphcInformations, socialMedias } from '../constants'
 import SocialMediasCard from './SocialMediasCard'
 
 const GraphCard = ({ data }) => {
   return (
-    <div className="md:flex block md:mt-40">
+    <div className="md:grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mt-10 hidden">
       {data.map((item, index) => (
-        <div className="flex items-center md:mr-20 mr-0 mt-10" key={index}>
-          <span className="bold text-6xl">{item.time}</span>
+        <div className="flex items-center" key={index}>
+          <CountUp
+            className="bold text-6xl"
+            start={0}
+            end={item.time}
+            duration={4}
+            delay={2}
+          />
+          <span className="bold text-6xl">{item.sufix}</span>
           &nbsp;
           <span
             className="text-[#dfd9ff]"
-            // biome-ignore lint/security/noDangerouslySetInnerHtml: <explanation>
             dangerouslySetInnerHTML={{ __html: item.description }}
           />
         </div>
@@ -36,30 +43,46 @@ const Hero = () => {
         </div>
 
         <div>
-          <span>Full Stack Developer</span>
-          <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className="text-[#915EFF]">Daniel Neris</span>
-          </h1>
-          <p className={`${styles.heroSubText} mt-2 text-gray`}>
-            I am Passionate about developing innovative solutions,
-          </p>
-          <p className={`${styles.heroSubText} mt-2 text-gray`}>
-            finance and decentralization.
-          </p>
+          <div className="flex items-center">
+            <div>
+              <span>Full Stack Developer</span>
+              <h1
+                className={`${styles.heroHeadText} lg:text-[70px] text-white`}
+              >
+                Hi, I'm <span className="text-[#915EFF]">Daniel Neris</span>
+              </h1>
+              <p
+                className={`${styles.heroSubText} mt-2 lg:text-[20px] text-gray`}
+              >
+                I am Passionate about developing innovative solutions,
+              </p>
+              <p
+                className={`${styles.heroSubText} mt-2 lg:text-[20px] text-gray`}
+              >
+                finance and decentralization.
+              </p>
+              <div className="md:flex items-center mt-10 text-center">
+                <button
+                  type="button"
+                  onClick={() => window.open(cvPDF, '_blank')}
+                  className="bg-transparent border-solid border-2 border-[#915EFF] rounded-full text-white font-bold py-3 px-5 mr-5 mb-10 md:mb-0"
+                >
+                  <div className="flex justify-center items-center">
+                    <span className="mr-3">SEE MY RESUME</span>
+                    <img
+                      src={link}
+                      alt="link"
+                      className="w-6 h-6 object-contain"
+                    />
+                  </div>
+                </button>
 
-          <div className="md:flex items-center mt-10 text-center">
-            <button
-              type="button"
-              onClick={() => window.open(cvPDF, '_blank')}
-              className="bg-transparent border-solid border-2 border-[#915EFF] rounded-full text-white font-bold py-3 px-5 mr-5 mb-10 md:mb-0"
-            >
-              <div className="flex justify-center items-center">
-                <span className="mr-3">SEE MY RESUME</span>
-                <img src={link} alt="link" className="w-6 h-6 object-contain" />
+                <SocialMediasCard socialMedias={socialMedias} />
               </div>
-            </button>
-
-            <SocialMediasCard socialMedias={socialMedias} />
+            </div>
+            <div className="flex items-center hidden lg:block">
+              <img className="rounded-full" src={homeImg} alt="" width={700} />
+            </div>
           </div>
           <GraphCard data={graphcInformations} />
         </div>

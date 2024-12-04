@@ -6,7 +6,6 @@ import web from './web.png'
 import github from './github.png'
 import menu from './menu.svg'
 import close from './close.svg'
-import testimonial from './testimonial.svg'
 
 import css from './tech/css.png'
 import docker from './tech/docker.png'
@@ -41,9 +40,6 @@ import starbucks from './company/starbucks.png'
 import tesla from './company/tesla.png'
 import startup from './company/startup.png'
 
-import carrent from './carrent.png'
-import jobit from './jobit.png'
-import tripguide from './tripguide.png'
 import download from './download.svg'
 import link from './link.svg'
 
@@ -53,6 +49,13 @@ import linkedin from './social/linkedin.svg'
 import githubSocial from './social/github.svg'
 
 import cvPDF from './resume/cv.pdf'
+
+import homeImg from './testimonials/home.jpeg'
+
+
+import testimonial1 from './testimonials/1.jpeg'
+import testimonial2 from './testimonials/2.jpeg'
+import testimonial3 from './testimonials/3.jpeg'
 
 export {
   logo,
@@ -81,9 +84,6 @@ export {
   starbucks,
   startup,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
   download,
   email,
   phone,
@@ -96,11 +96,14 @@ export {
   nuxtjs,
   vuejs,
   ai,
-  testimonial,
   zuviadigitalassets,
   zuviapay,
   fstage,
   smoolosbetclub,
   smoolosclubdapp,
-  smoolosnft
+  smoolosnft,
+  testimonial1,
+  testimonial2,
+  testimonial3,
+  homeImg
 }
