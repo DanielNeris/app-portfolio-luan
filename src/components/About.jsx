@@ -50,7 +50,7 @@ const About = () => {
         I am a passionate Full Stack Developer with over 6 years of experience
         in building scalable and secure applications. My expertise lies in the
         MERN stack, blockchain technology, artificial intelligence, and
-        decentralized solutions, driving innovation in technology
+        decentralized solutions, driving innovation in technology.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
