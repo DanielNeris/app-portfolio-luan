@@ -127,16 +127,16 @@ const services = [
     icon: web,
   },
   {
+    title: 'AI Projects & Solutions',
+    icon: backend,
+  },
+  {
     title: 'Decentralized Application (DApp)',
     icon: creator,
   },
   {
     title: 'Mobile App Development',
     icon: mobile,
-  },
-  {
-    title: 'DevOps & Infrastructure',
-    icon: backend,
   },
 ]
 
