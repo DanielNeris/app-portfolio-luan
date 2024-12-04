@@ -15,11 +15,11 @@ const GraphCard = ({ data }) => {
           <CountUp
             className="bold text-6xl"
             start={0}
+            suffix={item.sufix}
             end={item.time}
             duration={4}
             delay={2}
           />
-          <span className="bold text-6xl">{item.sufix}</span>
           &nbsp;
           <span
             className="text-[#dfd9ff]"
